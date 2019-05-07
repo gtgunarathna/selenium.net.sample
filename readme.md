@@ -9,6 +9,7 @@ Selenium C#.net Testng sample project for quality engineering automation
 
 ## How to start
  1. Open this project using Visual Studio
- 2. Update  Config\App.config file, property 'DriverLocation' with your browser driver location
+ 2. Install 'NUnit 3 Test Adapter' to your Visual studio otherwise VS will not pick your tests when running them
+ 2. Update  Config\App.config file, property 'DriverLocation' with your browser driver(Chrome) location
  3. Build the project once
  4. Run tests using 'Test Explorer'
